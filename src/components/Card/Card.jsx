@@ -10,7 +10,7 @@ export default function Card(props) {
       <div className="card">
         <p>Image Id : {id}</p>
         <img src={src} alt="image" width={280} height={150}/>
-        <p>{author}</p>
+        <p>Author: {author}</p>
         <button>Click Me</button>
       </div>
     </>

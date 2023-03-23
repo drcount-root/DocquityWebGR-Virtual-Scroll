@@ -134,6 +134,16 @@
 //   );
 // }
 
+//
+//
+//
+//
+//
+//
+//
+
+// working nearly
+
 import React, { useState, useEffect } from "react";
 import Card from './Card/Card';
 
@@ -179,7 +189,7 @@ function App() {
       {data.map((item) => (
         <div key={item.url}>
           {/* <img src={item.download_url} width={300} height={200} /> */}
-          <Card src={item.download_url} width={300} height={200}/>
+          <Card id={item.id} author={item.author} src={item.download_url} width={300} height={200}/>
         </div>
       ))}
     </div>

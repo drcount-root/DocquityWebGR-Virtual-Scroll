@@ -25,3 +25,9 @@
     padding: 5px 10px;
     border-radius: 4px;
 }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

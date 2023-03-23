@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d7e0ff;
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 7px;
+    gap: 20px;
+}
+
+.card img{
+    border-radius: 9px;
+}
+
+.card button{
+    padding: 5px 10px;
+    border-radius: 4px;
+}

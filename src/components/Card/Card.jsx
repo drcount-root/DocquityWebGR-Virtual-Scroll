@@ -1,7 +1,18 @@
-import React from 'react'
+import React from "react";
+import './Card.css'
 
-export default function Card() {
+export default function Card(props) {
+
+  const {id, src, author} = props;
+
   return (
-    <div>Card works!</div>
-  )
+    <>
+      <div className="card">
+        <p>Image Id : {id}</p>
+        <img src={src} alt="image" width={280} height={150}/>
+        <p>{author}</p>
+        <button>Click Me</button>
+      </div>
+    </>
+  );
 }

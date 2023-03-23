@@ -3,8 +3,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: #EAEAEA;
+    background-color: #87a1ff;
     padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 7px;
 }
 
 .card img{
